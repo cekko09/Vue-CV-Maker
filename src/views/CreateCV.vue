@@ -472,7 +472,7 @@
             </div>
             <div class="secondary">
               <div class="row">
-                <div class="col-md-8">
+                <div class="col-8">
                   <div class="secondary_resume_info p-4">
                     <div class="secondary_resume_info_section1">
                       <h3>Eğitimler</h3>
@@ -523,7 +523,7 @@
                   </div>
                 </div>
 
-                <div class="col-md-4 border-start border-end p-0">
+                <div class="col-4 border-start border-end p-0">
                   <div class="side_info_section p-4">
                     <div class="personal_info_side">
                       <h3>Kişisel Bilgiler</h3>
@@ -806,5 +806,36 @@ hr {
   display: block;
   border-width: 0;
   border-top: 1px solid #aaa;
+}
+@media only screen and (max-width: 600px){
+  #resume {
+  width: 100% !important;
+}
+ #resume h1 {
+  font-size: .7rem;
+}
+ #resume span {
+  font-size: .5rem;
+}
+ #resume p {
+  font-size: .7rem;
+}
+
+  #resume h2 {
+  font-size: .7rem;
+}
+ #resume h3 {
+  font-size: .7rem;
+}
+ #resume h4 {
+  font-size: .7rem;
+}
+
+ #resume h5 {
+  font-size: .7rem;
+}
+ #resume h6 {
+  font-size: .7rem;
+}
 }
 </style>
