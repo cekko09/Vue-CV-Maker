@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="" style="">
     <div class="row">
       <div class="col-md-5 mt-5 border">
         <div
@@ -455,7 +455,7 @@
       </div>
       <div class="col-md-1"></div>
       <div class="col-md-6 mt-5 p-0 ">
-        <div id="resume" class="border-start ms-4 border-bottom">
+        <div id="resume" class="border-start  border-bottom">
           <div id="print_sec">
             <div class="main_resume_info">
               <div class="main_info_section_1">

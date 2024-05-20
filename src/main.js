@@ -7,7 +7,6 @@ import "bootstrap"
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from './views/Home.vue';
 import CreateCV from './views/CreateCV.vue';
-import PreviewCV from './views/PreviewCV.vue';
 import { OhVueIcon, addIcons } from "oh-vue-icons";
 import * as FaIcons from "oh-vue-icons/icons/fa";
 
@@ -20,7 +19,6 @@ addIcons(...Fa);
 const routes = [
   { path: '/', component: Home },
   { path: '/create', component: CreateCV },
-  { path: '/preview', component: PreviewCV },
 ];
 
 const router = createRouter({
